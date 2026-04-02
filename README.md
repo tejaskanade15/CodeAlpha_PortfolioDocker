@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Tejas Kanade - DevOps & Cloud Portfolio
 
 This is my personal portfolio website built using HTML, CSS, and JavaScript.
@@ -20,3 +21,6 @@ https://tejaskanade15.github.io/Portfolio/
 - Certifications section
 - Skills overview
 - Contact information
+=======
+# CodeAlpha_PortfolioDocker
+>>>>>>> b361641a388650d83ef48bdeee5b34852f026142
