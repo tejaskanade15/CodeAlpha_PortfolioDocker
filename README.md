@@ -2,40 +2,71 @@
 
 ## 📌 Project Description
 
+This project demonstrates containerization and deployment of a personal portfolio website using Docker and Nginx.
 
-This project demonstrates the containerization of a personal portfolio website using Docker.
-The website is deployed inside a Docker container using Nginx as a web server, allowing it to run consistently across different environments.
-This project showcases fundamental DevOps concepts such as containerization, deployment, and container lifecycle management.
+The website is packaged inside a Docker container and served using an Nginx web server, ensuring consistent performance across different environments.
 
+This project showcases core DevOps concepts such as containerization, deployment, container lifecycle management, and basic monitoring.
 
+---
 
 ## ⚙️ Technologies Used
+
 - HTML, CSS, JavaScript
 - Docker
 - Nginx
 
+---
 
 ## 🚀 How to Run
 
 1. Clone the repository:
-   git clone https://github.com/your-username/CodeAlpha_PortfolioDocker.git
+   git clone https://github.com/tejaskanade15/CodeAlpha_PortfolioDocker.git
 
-2. Navigate to project folder:
+2. Navigate to the project folder:
    cd CodeAlpha_PortfolioDocker
 
-3. Build Docker image:
+3. Build the Docker image:
    docker build -t portfolio-app .
 
-4. Run container:
+4. Run the container:
    docker run -d -p 8080:80 portfolio-app
 
 5. Open in browser:
    http://localhost:8080
 
+---
+
+## 🐳 Dockerfile Explanation
+
+- FROM nginx:latest  
+  → Uses Nginx as the base web server  
+
+- COPY . /usr/share/nginx/html  
+  → Copies all website files into the server directory  
+
+---
+
+## 🛠️ Docker Commands Used
+
+- docker build -t portfolio-app .
+- docker run -d -p 8080:80 portfolio-app
+- docker ps
+- docker images
+- docker stop <container_id>
+- docker start <container_id>
+- docker logs <container_id>
+
+---
+
 ## 💡 Features
+
 - Responsive portfolio website
 - Containerized using Docker
-- Runs on any system with Docker
+- Deployed using Nginx web server
+- Portable and runs on any system with Docker installed
+
+---
 
 ## 📸 Screenshots
 
@@ -48,5 +79,8 @@ This project showcases fundamental DevOps concepts such as containerization, dep
 ### 🐳 Docker Container & Images
 ![Docker](docker.png)
 
+---
+
 ## 👨‍💻 Author
+
 Tejas Kanade
