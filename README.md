@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Tejas Kanade - DevOps & Cloud Portfolio
-=======
 # 🚀 Dockerized Portfolio Website
->>>>>>> aa1d78399410e27a85590ba9c1b0e928dcff6692
 
 ## 📌 Project Description
 
@@ -13,16 +8,6 @@ The website is packaged inside a Docker container and served using an Nginx web 
 
 This project showcases core DevOps concepts such as containerization, deployment, container lifecycle management, and basic monitoring.
 
-<<<<<<< HEAD
-## 📂 Features
-- Projects showcase
-- Certifications section
-- Skills overview
-- Contact information
-=======
-# CodeAlpha_PortfolioDocker
->>>>>>> b361641a388650d83ef48bdeee5b34852f026142
-=======
 ---
 
 ## ⚙️ Technologies Used
@@ -99,4 +84,3 @@ This project showcases core DevOps concepts such as containerization, deployment
 ## 👨‍💻 Author
 
 Tejas Kanade
->>>>>>> aa1d78399410e27a85590ba9c1b0e928dcff6692
